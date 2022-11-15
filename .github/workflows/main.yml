@@ -11,9 +11,8 @@ jobs:
 
 
     steps:
-      - name: 'testing github actions'
-        run: pwd
+      - name: 'printing folder content'
+        run: ls
 
         
-      - name: 'testing printing'
-        run: echo habiba
+    
